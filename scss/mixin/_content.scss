@@ -1,0 +1,14 @@
+%content {
+  z-index: -1;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  padding: 30px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.1s;
+}

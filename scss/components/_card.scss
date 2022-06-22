@@ -1,0 +1,158 @@
+.card {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 12rem;
+  text-align: center;
+  border: none;
+
+  background: unset !important;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border: 0px;
+}
+
+.card-img-top {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.card_section .container {
+  margin: 0 auto;
+}
+
+.card-body {
+  line-height: 1.6;
+}
+
+// 首頁card
+.index_card {
+  display: flex;
+  justify-content: center;
+  background-color: $color_text-colorwhite;
+  min-height: 100vh;
+}
+
+.index_card1 {
+  flex: 1;
+  padding-top: 1.5rem;
+
+  h2 {
+    font-family: Georgia;
+    font-size: 6.5rem;
+    font-weight: bolder;
+    text-align: center;
+    color: $color_accent;
+  }
+
+  li {
+    margin: 0 auto;
+  }
+
+  // 更改大小
+  .card-list {
+    overflow: hidden;
+    width: 70vmin;
+    height: 61vmin;
+
+    li {
+      width: 50vmin;
+      height: 60vmin;
+    }
+  }
+
+  .card_content {
+    height: 80rem;
+    width: 100%;
+    padding: 3rem 3rem;
+  }
+
+  .card__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-body {
+
+    h1 {
+      font-size: 2rem;
+      color: $color_text-color;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      @extend %flex-center;
+    }
+
+    p {
+      font-size: 1.2rem;
+      text-align: left;
+      line-height: 2rem;
+      color: $color_text-color;
+    }
+
+    button {
+      background-color: $color_accent;
+      margin-left: 20rem;
+      margin-top: 1rem;
+      border: none;
+      padding: 0.3rem 0.3rem;
+      border-radius: 5px;
+    }
+
+    .button__text {
+      color: $color_text-colorwhite;
+
+      @extend %flex-center;
+    }
+
+    button:hover {
+      background-color: $color_auxiliary--dark;
+    }
+  }
+
+  #navigate {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    // margin-top: 1vw;
+    position: relative;
+    bottom: -1rem;
+
+  }
+
+  #navigate a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    background: rgb(118, 118, 118);
+    z-index: 1;
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+
+  #navigate a:hover {
+    background: $color_auxiliary--dark;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+.index_card2 {
+  flex: 1;
+  line-height: 1.6;
+  padding: 10rem 2rem 5rem 2rem;
+
+  p {
+    padding: 3rem 10rem 1rem 0rem;
+    font-size: 1.2rem;
+    color: $color_accent;
+  }
+
+  h2 {
+    color: $color_accent;
+  }
+}

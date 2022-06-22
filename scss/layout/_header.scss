@@ -1,0 +1,141 @@
+.header {
+  box-sizing: border-box;
+  color: $color_white;
+  flex-direction: column;
+  top: 80px;
+
+  &__title {
+    font-size: 5rem;
+    // font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    color: rgba($color_white, 0.2);
+    // padding: 0rem 0rem 3rem 0rem;
+    @extend %flex-center;
+  }
+}
+
+// 首頁header
+.header__index {
+  min-height: 100vh;
+  background-image: url('/images/head/back-ground-img.jpg');
+  // 讓背景定位完全置中對齊
+  background-position: center center;
+  // 讓背景尺寸自動填滿區塊
+  background-size: cover;
+  /* 定義本區塊為彈性容器 */
+  display: flex;
+  /* 定義彈性容器內副軸至中 */
+  align-items: center;
+  /* 定義彈性容器內為直列顯示 */
+  flex-direction: column;
+  /* 定義彈性容器內主軸至中 */
+  justify-content: center;
+
+}
+
+.header__title {
+  font-size: 6.5rem;
+  // font-weight: bolder;
+  letter-spacing: 0.25rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  color: rgba($color_white, 0.4);
+}
+
+.header__container {
+  /* 設定本區塊的寬度最多為 600px */
+  // max-width: 800px;
+  /* 定義內容文字顏色 */
+  color: $color_text-colorwhite;
+  /* 設定內容文字顯示方式，center 為至中顯示 */
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em rgba(29, 29, 34, 0.822);
+  font-size: 1.2rem;
+}
+
+.aboutheader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+}
+
+.header_news {
+  min-height: 40vh;
+  /* 定義本區塊為彈性容器 */
+  display: flex;
+  /* 定義彈性容器內副軸至中 */
+  align-items: center;
+  /* 定義彈性容器內為直列顯示 */
+  flex-direction: column;
+  /* 定義彈性容器內主軸至中 */
+  justify-content: center;
+  margin-bottom: 2rem;
+  background-image: url('/images/slide/3.jpg');
+  // 讓背景定位完全置中對齊
+  background-position: center center;
+  // 讓背景尺寸自動填滿區塊
+  background-size: cover;
+}
+
+// 潛水知識header
+.header__knowledge {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('/images/iamge02__knowledge.jpg');
+  background-position: center;
+  background-size: fixed;
+  background-size: cover;
+}
+
+.headertitle__knowledge {
+  margin-bottom: 1rem;
+  color: $color_text-colorwhite;
+  font-size: 3rem;
+  text-shadow: 0.1em 0.1em 0.5em rgba(29, 29, 34, 0.822)
+}
+
+.headercontainer__knowledge {
+  max-width: 600px;
+  color: $color_text-colorwhite;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em rgba(29, 29, 34, 0.822);
+  font-size: 1.2rem;
+}
+
+
+//潛水旅遊header
+.header__travel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('/images/image03__knowledge.jpg');
+  background-position: center;
+  background-size: fixed;
+  background-size: cover;
+}
+
+.headertitle__travel {
+  margin-bottom: 1rem;
+  color: $color_text-colorwhite;
+  font-size: 3rem;
+  text-shadow: 0.1em 0.1em 0.5em rgba(29, 29, 34, 0.822)
+}
+
+.headercontainer__travel {
+  font-size: 1.2rem;
+  max-width: 600px;
+  color: $color_text-colorwhite;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em rgba(29, 29, 34, 0.822)
+}

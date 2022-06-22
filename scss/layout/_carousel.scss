@@ -1,0 +1,58 @@
+.index_box {
+  display: flex;
+  justify-content: center;
+  padding: 10rem 0 1rem 0;
+
+  img {
+    height: 40rem;
+  }
+}
+
+.index_box2 {
+  padding: 0rem 0 1rem 0;
+
+  ul {
+    position: relative;
+    right: 3rem;
+    margin-top: 1.5rem;
+  }
+
+  li {
+    font-size: 26px;
+    padding: 0.5rem;
+    width: 500px;
+    height: 84px;
+    align-items: center;
+    display: flex;
+
+    a {
+      text-decoration: none;
+
+      color: $color_auxiliary--light;
+    }
+  }
+
+  li:hover {
+    /* From https://css.glass */
+
+    background: rgba(255, 255, 255, 0.34);
+    // 圓角
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.6px);
+    -webkit-backdrop-filter: blur(10.6px);
+    transition: 0.3s;
+
+  }
+}
+
+.index_box1 {
+  overflow: hidden;
+  width: 100vmin;
+  height: 100vmin;
+
+  li {
+    width: 100vmin;
+    height: 100vmin;
+  }
+}
