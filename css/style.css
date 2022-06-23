@@ -1893,7 +1893,7 @@ img {
 .index_card1 .card-list {
   overflow: hidden;
   width: 70vmin;
-  height: 61vmin;
+  height: 604px;
 }
 
 .index_card1 .card-list li {
@@ -1902,7 +1902,6 @@ img {
 }
 
 .index_card1 .card_content {
-  height: 80rem;
   width: 100%;
   padding: 3rem 3rem;
 }
@@ -1990,6 +1989,26 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+#change1 {
+  height: 604px;
+}
+
+#change2 {
+  height: 604px;
+}
+
+#change3 {
+  height: 604px;
+}
+
+#change4 {
+  height: 604px;
+}
+
+#change5 {
+  height: 604px;
 }
 
 .index_card2 {
