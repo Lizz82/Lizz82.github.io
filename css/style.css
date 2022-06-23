@@ -1505,8 +1505,8 @@ img {
 }
 
 .modal {
-  width: 80%;
-  height: 90%;
+  width: 70%;
+  height: 80%;
   padding: 30px;
   color: #fff;
   text-align: center;
@@ -1562,8 +1562,8 @@ img {
 }
 
 .modal2 {
-  width: 80%;
-  height: 90%;
+  width: 70%;
+  height: 80%;
   padding: 30px;
   color: #fff;
   text-align: center;
@@ -1619,8 +1619,8 @@ img {
 }
 
 .modal3 {
-  width: 80%;
-  height: 90%;
+  width: 70%;
+  height: 80%;
   padding: 30px;
   color: #fff;
   text-align: center;
@@ -1676,8 +1676,8 @@ img {
 }
 
 .modal4 {
-  width: 80%;
-  height: 90%;
+  width: 70%;
+  height: 80%;
   padding: 30px;
   color: #fff;
   text-align: center;
@@ -1733,8 +1733,8 @@ img {
 }
 
 .modal5 {
-  width: 80%;
-  height: 90%;
+  width: 70%;
+  height: 80%;
   padding: 30px;
   color: #fff;
   text-align: center;
@@ -1790,8 +1790,8 @@ img {
 }
 
 .modal6 {
-  width: 80%;
-  height: 90%;
+  width: 70%;
+  height: 80%;
   padding: 30px;
   color: #fff;
   text-align: center;
@@ -1893,7 +1893,7 @@ img {
 .index_card1 .card-list {
   overflow: hidden;
   width: 70vmin;
-  height: 604px;
+  height: 61vmin;
 }
 
 .index_card1 .card-list li {
@@ -1902,6 +1902,7 @@ img {
 }
 
 .index_card1 .card_content {
+  height: 80rem;
   width: 100%;
   padding: 3rem 3rem;
 }
@@ -1989,26 +1990,6 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-#change1 {
-  height: 604px;
-}
-
-#change2 {
-  height: 604px;
-}
-
-#change3 {
-  height: 604px;
-}
-
-#change4 {
-  height: 604px;
-}
-
-#change5 {
-  height: 604px;
 }
 
 .index_card2 {
@@ -2255,6 +2236,26 @@ img {
 .index_box1 li {
   width: 100vmin;
   height: 100vmin;
+}
+
+#slide1:target {
+  padding-top: 80px;
+}
+
+#slide2:target {
+  padding-top: 80px;
+}
+
+#slide3:target {
+  padding-top: 80px;
+}
+
+#slide4:target {
+  padding-top: 80px;
+}
+
+#slide5:target {
+  padding-top: 80px;
 }
 
 .news_inner {

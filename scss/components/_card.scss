@@ -51,7 +51,7 @@
   .card-list {
     overflow: hidden;
     width: 70vmin;
-    height: 604px;
+    height: 61vmin;
 
     li {
       width: 50vmin;
@@ -60,7 +60,7 @@
   }
 
   .card_content {
-    // height: 80rem;
+    height: 80rem;
     width: 100%;
     padding: 3rem 3rem;
   }
@@ -140,26 +140,6 @@
   }
 }
 
-#change1 {
-  height: 604px;
-
-}
-
-#change2 {
-  height: 604px;
-}
-
-#change3 {
-  height: 604px;
-}
-
-#change4 {
-  height: 604px;
-}
-
-#change5 {
-  height: 604px;
-}
 
 .index_card2 {
   flex: 1;
