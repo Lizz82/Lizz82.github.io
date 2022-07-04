@@ -770,7 +770,7 @@ img {
   overflow: visible;
   position: relative;
   height: 100%;
-  background-image: url(/images/img-diving01.jpg);
+  background-image: url(../../images/img-diving01.jpg);
   background-size: cover;
   background-position: center top;
 }
@@ -779,7 +779,7 @@ img {
   overflow: hidden;
   position: relative;
   height: 100%;
-  background-image: url(/images/img-diving06.jpg);
+  background-image: url(../../images/img-diving06.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -788,7 +788,7 @@ img {
   overflow: hidden;
   position: relative;
   height: 100%;
-  background-image: url(/images/img-diving02.jpg);
+  background-image: url(../../images/img-diving02.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -797,7 +797,7 @@ img {
   overflow: visible;
   position: relative;
   height: 100%;
-  background-image: url(/images/img-group06.jpg);
+  background-image: url(../../images/img-group06.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -806,7 +806,7 @@ img {
   overflow: hidden;
   position: relative;
   height: 100%;
-  background-image: url(/images/img-group05.jpg);
+  background-image: url(../../images/img-group05.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -1303,7 +1303,7 @@ img {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  background: linear-gradient(105deg, #2e4051 50%, transparent 50%) center center/0% 100%, url("/images/iamge01__knowledge.jpg") right center/auto 100%;
+  background: linear-gradient(105deg, #2e4051 50%, transparent 50%) center center/0% 100%, url("../../images/iamge01__knowledge.jpg") right center/auto 100%;
   background-size: contain;
 }
 
@@ -1339,7 +1339,7 @@ img {
           align-items: flex-start;
   width: 100%;
   height: 100vh;
-  background: url("/images/iamge04__knowledge.jpg") right center/auto 100%;
+  background: url("../../images/iamge04__knowledge.jpg") right center/auto 100%;
   background-size: cover;
 }
 
@@ -1471,7 +1471,7 @@ img {
   width: 100%;
   height: 100vh;
   background-color: #23989B;
-  background-image: url(/images/map-01.png);
+  background-image: url(../../images/map-01.png);
   background-size: cover;
 }
 
@@ -1499,7 +1499,7 @@ img {
   border: 0;
   padding: .5em 2em;
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
   background-color: #214c77;
   border-radius: 20px;
 }
@@ -1508,7 +1508,7 @@ img {
   width: 70%;
   height: 80%;
   padding: 30px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1543,7 +1543,7 @@ img {
   background: #d75f70;
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   font-size: 1rem;
 }
 
@@ -1556,7 +1556,7 @@ img {
   border: 0;
   padding: .5em 2em;
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
   background-color: #214c77;
   border-radius: 20px;
 }
@@ -1565,7 +1565,7 @@ img {
   width: 70%;
   height: 80%;
   padding: 30px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1600,7 +1600,7 @@ img {
   background: #d75f70;
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   font-size: 1rem;
 }
 
@@ -1613,7 +1613,7 @@ img {
   border: 0;
   padding: .5em 2em;
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
   background-color: #214c77;
   border-radius: 20px;
 }
@@ -1622,7 +1622,7 @@ img {
   width: 70%;
   height: 80%;
   padding: 30px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1657,7 +1657,7 @@ img {
   background: #d75f70;
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   font-size: 1rem;
 }
 
@@ -1670,7 +1670,7 @@ img {
   border: 0;
   padding: .5em 2em;
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
   background-color: #214c77;
   border-radius: 20px;
 }
@@ -1679,7 +1679,7 @@ img {
   width: 70%;
   height: 80%;
   padding: 30px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1714,7 +1714,7 @@ img {
   background: #d75f70;
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   font-size: 1rem;
 }
 
@@ -1727,7 +1727,7 @@ img {
   border: 0;
   padding: .5em 2em;
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
   background-color: #214c77;
   border-radius: 20px;
 }
@@ -1736,7 +1736,7 @@ img {
   width: 70%;
   height: 80%;
   padding: 30px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1771,7 +1771,7 @@ img {
   background: #d75f70;
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   font-size: 1rem;
 }
 
@@ -1784,7 +1784,7 @@ img {
   border: 0;
   padding: .5em 2em;
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
   background-color: #214c77;
   border-radius: 20px;
 }
@@ -1793,7 +1793,7 @@ img {
   width: 70%;
   height: 80%;
   padding: 30px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1828,7 +1828,7 @@ img {
   background: #d75f70;
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
   font-size: 1rem;
 }
 
@@ -2064,7 +2064,7 @@ img {
 .btn--disabled:hover,
 .btn--disabled:active,
 .btn--disabled:focus {
-  color: #fff;
+  color: #ffffff;
   pointer-events: none;
   background-color: #d1d2d3;
 }
@@ -2073,7 +2073,7 @@ img {
 .btn.btn--secondary,
 .btn.btn--positive,
 .btn.btn--negative {
-  color: #fff;
+  color: #ffffff;
 }
 
 .btn.btn--primary {
@@ -2356,7 +2356,7 @@ img {
 
 .header__index {
   min-height: 100vh;
-  background-image: url("/images/head/back-ground-img.jpg");
+  background-image: url("../../images/head/back-ground-img.jpg");
   background-position: center center;
   background-size: cover;
   /* 定義本區塊為彈性容器 */
@@ -2433,7 +2433,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 2rem;
-  background-image: url("/images/slide/3.jpg");
+  background-image: url("../../images/slide/3.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -2454,7 +2454,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
-  background-image: url("/images/iamge02__knowledge.jpg");
+  background-image: url("../../images/iamge02__knowledge.jpg");
   background-position: center;
   background-size: fixed;
   background-size: cover;
@@ -2491,7 +2491,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
-  background-image: url("/images/image03__knowledge.jpg");
+  background-image: url("../../images/image03__knowledge.jpg");
   background-position: center;
   background-size: fixed;
   background-size: cover;

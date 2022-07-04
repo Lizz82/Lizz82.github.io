@@ -50,7 +50,7 @@
 .btn--disabled:hover,
 .btn--disabled:active,
 .btn--disabled:focus {
-  color: #fff;
+  color: $color_white;
   pointer-events: none;
   background-color: #d1d2d3;
 }
@@ -59,7 +59,7 @@
 .btn.btn--secondary,
 .btn.btn--positive,
 .btn.btn--negative {
-  color: #fff;
+  color: $color_white;
 }
 
 .btn.btn--primary {

@@ -19,7 +19,7 @@
 // 首頁header
 .header__index {
   min-height: 100vh;
-  background-image: url('/images/head/back-ground-img.jpg');
+  background-image: url('../../images/head/back-ground-img.jpg');
   // 讓背景定位完全置中對齊
   background-position: center center;
   // 讓背景尺寸自動填滿區塊
@@ -74,7 +74,7 @@
   /* 定義彈性容器內主軸至中 */
   justify-content: center;
   margin-bottom: 2rem;
-  background-image: url('/images/slide/3.jpg');
+  background-image: url('../../images/slide/3.jpg');
   // 讓背景定位完全置中對齊
   background-position: center center;
   // 讓背景尺寸自動填滿區塊
@@ -89,7 +89,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  background-image: url('/images/iamge02__knowledge.jpg');
+  background-image: url('../../images/iamge02__knowledge.jpg');
   background-position: center;
   background-size: fixed;
   background-size: cover;
@@ -119,7 +119,7 @@
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  background-image: url('/images/image03__knowledge.jpg');
+  background-image: url('../../images/image03__knowledge.jpg');
   background-position: center;
   background-size: fixed;
   background-size: cover;

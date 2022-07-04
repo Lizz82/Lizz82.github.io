@@ -9,7 +9,7 @@
   align-items: flex-start;
   //背景縮寫技巧  漸層：(角度，背景色，第一個漸層色空間，第二個漸層色空間) background-position / 漸層寬高;
   background: linear-gradient(105deg, #2e4051 50%, transparent 50%) center center / 00% 100%, //多重背景寫法  url(背景連結) background-position /圖片寬高
-    url("/images/iamge01__knowledge.jpg") right center / auto 100%;
+    url("../../images/iamge01__knowledge.jpg") right center / auto 100%;
   background-size: contain;
 }
 
@@ -38,7 +38,7 @@
   width: 100%;
   height: 100vh;
   background:
-    url("/images/iamge04__knowledge.jpg") right center / auto 100%;
+    url("../../images/iamge04__knowledge.jpg") right center / auto 100%;
   background-size: cover;
 }
 
@@ -162,7 +162,7 @@
   width: 100%;
   height: 100vh;
   background-color: #23989B;
-  background-image: url(/images/map-01.png);
+  background-image: url(../../images/map-01.png);
   background-size: cover;
 }
 
@@ -185,7 +185,7 @@
   border: 0;
   padding: .5em 2em;
   cursor: pointer;
-  color: #fff;
+  color: $color_white;
   background-color: $color_accent;
   border-radius: 20px
 }
@@ -194,7 +194,7 @@
   width: 70%;
   height: 80%;
   padding: 30px;
-  color: #fff;
+  color: $color_white;
   text-align: center;
   align-items: center;
   justify-items: center;
@@ -225,7 +225,7 @@
     background: #d75f70;
     font-weight: bold;
     text-decoration: none;
-    color: #fff;
+    color: $color_white;
     font-size: 1rem;
   }
 }
@@ -240,7 +240,7 @@
   border: 0;
   padding: .5em 2em;
   cursor: pointer;
-  color: #fff;
+  color: $color_white;
   background-color: $color_accent;
   border-radius: 20px
 }
@@ -249,7 +249,7 @@
   width: 70%;
   height: 80%;
   padding: 30px;
-  color: #fff;
+  color: $color_white;
   text-align: center;
   align-items: center;
   justify-items: center;
@@ -280,7 +280,7 @@
     background: #d75f70;
     font-weight: bold;
     text-decoration: none;
-    color: #fff;
+    color: $color_white;
     font-size: 1rem;
   }
 }
@@ -296,7 +296,7 @@
   border: 0;
   padding: .5em 2em;
   cursor: pointer;
-  color: #fff;
+  color: $color_white;
   background-color: $color_accent;
   border-radius: 20px
 }
@@ -305,7 +305,7 @@
   width: 70%;
   height: 80%;
   padding: 30px;
-  color: #fff;
+  color: $color_white;
   text-align: center;
   align-items: center;
   justify-items: center;
@@ -336,7 +336,7 @@
     background: #d75f70;
     font-weight: bold;
     text-decoration: none;
-    color: #fff;
+    color: $color_white;
     font-size: 1rem;
   }
 }
@@ -352,7 +352,7 @@
   border: 0;
   padding: .5em 2em;
   cursor: pointer;
-  color: #fff;
+  color: $color_white;
   background-color: $color_accent;
   border-radius: 20px
 }
@@ -361,7 +361,7 @@
   width: 70%;
   height: 80%;
   padding: 30px;
-  color: #fff;
+  color: $color_white;
   text-align: center;
   align-items: center;
   justify-items: center;
@@ -392,7 +392,7 @@
     background: #d75f70;
     font-weight: bold;
     text-decoration: none;
-    color: #fff;
+    color: $color_white;
     font-size: 1rem;
   }
 }
@@ -408,7 +408,7 @@
   border: 0;
   padding: .5em 2em;
   cursor: pointer;
-  color: #fff;
+  color: $color_white;
   background-color: $color_accent;
   border-radius: 20px
 }
@@ -417,7 +417,7 @@
   width: 70%;
   height: 80%;
   padding: 30px;
-  color: #fff;
+  color: $color_white;
   text-align: center;
   align-items: center;
   justify-items: center;
@@ -448,7 +448,7 @@
     background: #d75f70;
     font-weight: bold;
     text-decoration: none;
-    color: #fff;
+    color: $color_white;
     font-size: 1rem;
   }
 }
@@ -463,7 +463,7 @@
   border: 0;
   padding: .5em 2em;
   cursor: pointer;
-  color: #fff;
+  color: $color_white;
   background-color: $color_accent;
   border-radius: 20px
 }
@@ -472,7 +472,7 @@
   width: 70%;
   height: 80%;
   padding: 30px;
-  color: #fff;
+  color: $color_white;
   text-align: center;
   align-items: center;
   justify-items: center;
@@ -503,7 +503,7 @@
     background: #d75f70;
     font-weight: bold;
     text-decoration: none;
-    color: #fff;
+    color: $color_white;
     font-size: 1rem;
   }
 }
